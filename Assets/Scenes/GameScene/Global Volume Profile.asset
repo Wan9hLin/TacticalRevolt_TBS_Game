@@ -1,0 +1,282 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7789972927255516436
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66f335fb1ffd8684294ad653bf1c7564, type: 3}
+  m_Name: ColorAdjustments
+  m_EditorClassIdentifier: 
+  active: 1
+  postExposure:
+    m_OverrideState: 0
+    m_Value: 0
+  contrast:
+    m_OverrideState: 1
+    m_Value: 37
+  colorFilter:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  hueShift:
+    m_OverrideState: 0
+    m_Value: 0
+  saturation:
+    m_OverrideState: 1
+    m_Value: 46
+--- !u!114 &-4568053114198920920
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 840cc048a5aa61d4cbc01d6073ffb0a0, type: 3}
+  m_Name: BetterFogVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  _FogIntensity:
+    m_OverrideState: 1
+    m_Value: 1
+  _EnergyLoss:
+    m_OverrideState: 1
+    m_Value: 0
+  _UseGradient:
+    m_OverrideState: 1
+    m_Value: 0
+  _FogColor:
+    m_OverrideState: 1
+    m_Value: {r: 0.254717, g: 0.20434438, b: 0.13793164, a: 1}
+  _GradientStart:
+    m_OverrideState: 1
+    m_Value: 0
+  _GradientEnd:
+    m_OverrideState: 1
+    m_Value: 2000
+  _GradientTexture:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+    LerpValue: 0
+    FromTexture: {fileID: 0}
+  _UseSunLight:
+    m_OverrideState: 1
+    m_Value: 0
+  _SunColor:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 0.88867927, b: 0.759434, a: 1}
+  _SunIntensity:
+    m_OverrideState: 1
+    m_Value: 0.91
+  _SunPower:
+    m_OverrideState: 1
+    m_Value: 1.78
+  _UseDistanceFog:
+    m_OverrideState: 1
+    m_Value: 0
+  _UseRadialDistance:
+    m_OverrideState: 1
+    m_Value: 1
+  _FogType:
+    m_OverrideState: 1
+    m_Value: 3
+  _DistanceFogOffset:
+    m_OverrideState: 1
+    m_Value: 0
+  _SceneStart:
+    m_OverrideState: 1
+    m_Value: 1
+  _SceneEnd:
+    m_OverrideState: 1
+    m_Value: 1000
+  _FogDensity:
+    m_OverrideState: 1
+    m_Value: 0
+  _UseSkyboxHeightFog:
+    m_OverrideState: 1
+    m_Value: 1
+  _SkyboxFogOffset:
+    m_OverrideState: 1
+    m_Value: -0.037
+  _SkyboxFogHardness:
+    m_OverrideState: 1
+    m_Value: 0.126
+  _SkyboxFogIntensity:
+    m_OverrideState: 1
+    m_Value: 0.091
+  _SkyboxFill:
+    m_OverrideState: 1
+    m_Value: 0.091
+  _UseHeightFog:
+    m_OverrideState: 1
+    m_Value: 1
+  _Height:
+    m_OverrideState: 1
+    m_Value: 1.6
+  _HeightDensity:
+    m_OverrideState: 1
+    m_Value: 0.428
+  _HeightFogType:
+    m_OverrideState: 1
+    m_Value: 2
+  _UseNoise:
+    m_OverrideState: 1
+    m_Value: 0
+  _NoiseAffect:
+    m_OverrideState: 1
+    m_Value: 0
+  _NoiseIntensity:
+    m_OverrideState: 1
+    m_Value: 1
+  _NoiseDistanceEnd:
+    m_OverrideState: 1
+    m_Value: 500
+  _NoiseEndHardness:
+    m_OverrideState: 1
+    m_Value: 1
+  _Scale1:
+    m_OverrideState: 1
+    m_Value: 140
+  _Lerp1:
+    m_OverrideState: 1
+    m_Value: 0.946
+  _NoiseSpeed1:
+    m_OverrideState: 1
+    m_Value: {x: 2, y: 1, z: 0}
+  _NoiseTimeScale1:
+    m_OverrideState: 1
+    m_Value: 0.151
+  _UseSSMS:
+    m_OverrideState: 1
+    m_Value: 1
+  _Threshold:
+    m_OverrideState: 1
+    m_Value: 0
+  _SoftKnee:
+    m_OverrideState: 1
+    m_Value: 0.5
+  _Radius:
+    m_OverrideState: 1
+    m_Value: 7
+  _BlurWeight:
+    m_OverrideState: 1
+    m_Value: 1
+  _Intensity:
+    m_OverrideState: 1
+    m_Value: 1
+  _HighQuality:
+    m_OverrideState: 1
+    m_Value: 1
+  _AntiFlicker:
+    m_OverrideState: 1
+    m_Value: 1
+  _FadeRamp:
+    m_OverrideState: 1
+    m_Value: {fileID: 2800000, guid: 4827eac072da90940ae8247716a74434, type: 3}
+--- !u!114 &-3022478703556740957
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97c23e3b12dc18c42a140437e53d3951, type: 3}
+  m_Name: Tonemapping
+  m_EditorClassIdentifier: 
+  active: 1
+  mode:
+    m_OverrideState: 1
+    m_Value: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: Global Volume Profile
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: -3022478703556740957}
+  - {fileID: -7789972927255516436}
+  - {fileID: 2574016043629833052}
+  - {fileID: 5719702413326432738}
+  - {fileID: -4568053114198920920}
+--- !u!114 &2574016043629833052
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b2db86121404754db890f4c8dfe81b2, type: 3}
+  m_Name: Bloom
+  m_EditorClassIdentifier: 
+  active: 1
+  threshold:
+    m_OverrideState: 1
+    m_Value: 1
+  intensity:
+    m_OverrideState: 1
+    m_Value: 1
+  scatter:
+    m_OverrideState: 0
+    m_Value: 0.7
+  clamp:
+    m_OverrideState: 0
+    m_Value: 65472
+  tint:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  highQualityFiltering:
+    m_OverrideState: 0
+    m_Value: 0
+  skipIterations:
+    m_OverrideState: 0
+    m_Value: 1
+  dirtTexture:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  dirtIntensity:
+    m_OverrideState: 0
+    m_Value: 0
+--- !u!114 &5719702413326432738
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 899c54efeace73346a0a16faa3afe726, type: 3}
+  m_Name: Vignette
+  m_EditorClassIdentifier: 
+  active: 1
+  color:
+    m_OverrideState: 0
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
+  center:
+    m_OverrideState: 0
+    m_Value: {x: 0.5, y: 0.5}
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0.45
+  smoothness:
+    m_OverrideState: 0
+    m_Value: 0.2
+  rounded:
+    m_OverrideState: 0
+    m_Value: 0

@@ -1,0 +1,319 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4430342306436376951
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4430342306436376950}
+  - component: {fileID: 4430342306436376945}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4430342306436376950
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4430342306436376951}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4430342306436376945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4430342306436376951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a2aca8fe5f12f4408a9a9d7ca7f5096, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: EnemyShoot
+    clip: {fileID: 8300000, guid: f69465677b6a03043808108f767097fd, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: -770985811200889226, guid: e8600ebabc5fb4940a05238772c7fd2d,
+      type: 2}
+    source: {fileID: 0}
+  - name: CommondoShoot
+    clip: {fileID: 8300000, guid: 6703253a706e73b4b9a4865a14efd673, type: 3}
+    volume: 0.75
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: -770985811200889226, guid: e8600ebabc5fb4940a05238772c7fd2d,
+      type: 2}
+    source: {fileID: 0}
+  - name: SniperShoot
+    clip: {fileID: 8300000, guid: 83b940bbfab633f4380d30484e5f279f, type: 3}
+    volume: 0.45
+    pitch: 1.25
+    loop: 0
+    mixerGroup: {fileID: -770985811200889226, guid: e8600ebabc5fb4940a05238772c7fd2d,
+      type: 2}
+    source: {fileID: 0}
+  - name: MedicShoot
+    clip: {fileID: 8300000, guid: 1ac1c008e9c89ff469ac4e3c47cad59c, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: -770985811200889226, guid: e8600ebabc5fb4940a05238772c7fd2d,
+      type: 2}
+    source: {fileID: 0}
+  - name: GrendierShoot
+    clip: {fileID: 8300000, guid: f54f24f6c6fa2ac4da0eaab0510ba773, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: -770985811200889226, guid: e8600ebabc5fb4940a05238772c7fd2d,
+      type: 2}
+    source: {fileID: 0}
+  - name: CoverUseShoot
+    clip: {fileID: 8300000, guid: c2438f4b7ff46c54fa5ee55b25cf89ee, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: -770985811200889226, guid: e8600ebabc5fb4940a05238772c7fd2d,
+      type: 2}
+    source: {fileID: 0}
+  - name: SwordSlash
+    clip: {fileID: 8300000, guid: 197b1f6067c8da141be55ef3a43d59c7, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: -770985811200889226, guid: e8600ebabc5fb4940a05238772c7fd2d,
+      type: 2}
+    source: {fileID: 0}
+  - name: Warning
+    clip: {fileID: 8300000, guid: 484ccdd1ae9b18b49b6f0636af0e2f79, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: -770985811200889226, guid: e8600ebabc5fb4940a05238772c7fd2d,
+      type: 2}
+    source: {fileID: 0}
+  - name: Button_1
+    clip: {fileID: 8300000, guid: 0271985fe4b563042a4c4ca7f3e709b4, type: 3}
+    volume: 0.55
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: -770985811200889226, guid: e8600ebabc5fb4940a05238772c7fd2d,
+      type: 2}
+    source: {fileID: 0}
+  - name: CommondoVoice
+    clip: {fileID: 8300000, guid: 4b41885d91ebe4645b58bfd1d8d73dde, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: -770985811200889226, guid: e8600ebabc5fb4940a05238772c7fd2d,
+      type: 2}
+    source: {fileID: 0}
+  - name: MedicVoice
+    clip: {fileID: 8300000, guid: cae3138a464eebb4f93930169be76e11, type: 3}
+    volume: 0.9
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: -770985811200889226, guid: e8600ebabc5fb4940a05238772c7fd2d,
+      type: 2}
+    source: {fileID: 0}
+  - name: SniperVoice
+    clip: {fileID: 8300000, guid: b12f48dfec68c274a8fb0e707a6e1519, type: 3}
+    volume: 0.9
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: -770985811200889226, guid: e8600ebabc5fb4940a05238772c7fd2d,
+      type: 2}
+    source: {fileID: 0}
+  - name: GrendierVoice
+    clip: {fileID: 8300000, guid: 550985d40d4d249459b22c8e9fffc4b2, type: 3}
+    volume: 0.9
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: -770985811200889226, guid: e8600ebabc5fb4940a05238772c7fd2d,
+      type: 2}
+    source: {fileID: 0}
+  - name: CommondoMove
+    clip: {fileID: 8300000, guid: 7a6601e1f4804464ea63fb19752e9e3c, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: -770985811200889226, guid: e8600ebabc5fb4940a05238772c7fd2d,
+      type: 2}
+    source: {fileID: 0}
+  - name: MedicMove
+    clip: {fileID: 8300000, guid: c0045af817a64e84c84ec832c1365e78, type: 3}
+    volume: 0.9
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: -770985811200889226, guid: e8600ebabc5fb4940a05238772c7fd2d,
+      type: 2}
+    source: {fileID: 0}
+  - name: SniperMove
+    clip: {fileID: 8300000, guid: 2b1e5fbeac9df2944850ee573f402122, type: 3}
+    volume: 0.9
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: -770985811200889226, guid: e8600ebabc5fb4940a05238772c7fd2d,
+      type: 2}
+    source: {fileID: 0}
+  - name: GrendierMove
+    clip: {fileID: 8300000, guid: 164b787e8a117a045a77764f2e0a25dd, type: 3}
+    volume: 0.9
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: -770985811200889226, guid: e8600ebabc5fb4940a05238772c7fd2d,
+      type: 2}
+    source: {fileID: 0}
+  - name: CrossHair
+    clip: {fileID: 8300000, guid: 4380398524bfca7429bde08510f7ad58, type: 3}
+    volume: 0.9
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: -770985811200889226, guid: e8600ebabc5fb4940a05238772c7fd2d,
+      type: 2}
+    source: {fileID: 0}
+  - name: Level1AlienTurn
+    clip: {fileID: 8300000, guid: 485263285a9a683419143c21ad4f8500, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: -770985811200889226, guid: e8600ebabc5fb4940a05238772c7fd2d,
+      type: 2}
+    source: {fileID: 0}
+  - name: Typing
+    clip: {fileID: 8300000, guid: 9cfc87cc54e2eb547a84a9e287501c30, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 1
+    mixerGroup: {fileID: -770985811200889226, guid: e8600ebabc5fb4940a05238772c7fd2d,
+      type: 2}
+    source: {fileID: 0}
+  - name: Button_2
+    clip: {fileID: 8300000, guid: 63f7db7a17fef6142b2230297d261daf, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: -770985811200889226, guid: e8600ebabc5fb4940a05238772c7fd2d,
+      type: 2}
+    source: {fileID: 0}
+  - name: MoveActionSound
+    clip: {fileID: 8300000, guid: 9f169851e11469342991dc26c219c869, type: 3}
+    volume: 0.2
+    pitch: 1.3
+    loop: 0
+    mixerGroup: {fileID: -770985811200889226, guid: e8600ebabc5fb4940a05238772c7fd2d,
+      type: 2}
+    source: {fileID: 0}
+  - name: DroneFlying
+    clip: {fileID: 8300000, guid: 918f8bde464c2274595736087cd966a7, type: 3}
+    volume: 0.842
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: -770985811200889226, guid: e8600ebabc5fb4940a05238772c7fd2d,
+      type: 2}
+    source: {fileID: 0}
+  - name: Healing
+    clip: {fileID: 8300000, guid: b527cdeb34985a847911a1d28827db6d, type: 3}
+    volume: 0.615
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: -770985811200889226, guid: e8600ebabc5fb4940a05238772c7fd2d,
+      type: 2}
+    source: {fileID: 0}
+  - name: GrenadeAction
+    clip: {fileID: 8300000, guid: 78ea5a1f43aac344895c77aa52bcd02d, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: -770985811200889226, guid: e8600ebabc5fb4940a05238772c7fd2d,
+      type: 2}
+    source: {fileID: 0}
+  - name: Explosion
+    clip: {fileID: 8300000, guid: a59b043c2de78924eb29d0d0bf2ef2eb, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: -770985811200889226, guid: e8600ebabc5fb4940a05238772c7fd2d,
+      type: 2}
+    source: {fileID: 0}
+  - name: WomanDeath
+    clip: {fileID: 8300000, guid: 2f44ba5ce5c33de4a9d47e48bf76c540, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: -770985811200889226, guid: e8600ebabc5fb4940a05238772c7fd2d,
+      type: 2}
+    source: {fileID: 0}
+  - name: ManDeath
+    clip: {fileID: 8300000, guid: 306f0c62052d284499ea464c9f248935, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: -770985811200889226, guid: e8600ebabc5fb4940a05238772c7fd2d,
+      type: 2}
+    source: {fileID: 0}
+  - name: AlienDeath
+    clip: {fileID: 8300000, guid: 81b474a71391c784da2fe0061ea1d8d7, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: -770985811200889226, guid: e8600ebabc5fb4940a05238772c7fd2d,
+      type: 2}
+    source: {fileID: 0}
+  - name: MetalDoorOpen
+    clip: {fileID: 8300000, guid: d89e10531d0d34f4488104a058e1a118, type: 3}
+    volume: 0.5
+    pitch: 1.5
+    loop: 0
+    mixerGroup: {fileID: -770985811200889226, guid: e8600ebabc5fb4940a05238772c7fd2d,
+      type: 2}
+    source: {fileID: 0}
+  - name: SlideDoorOpen
+    clip: {fileID: 8300000, guid: 763058bdd8355a7418a367d0ff7c015d, type: 3}
+    volume: 0.5
+    pitch: 1.4
+    loop: 0
+    mixerGroup: {fileID: -770985811200889226, guid: e8600ebabc5fb4940a05238772c7fd2d,
+      type: 2}
+    source: {fileID: 0}
+  - name: LaserClose
+    clip: {fileID: 8300000, guid: 0c55bfacf57258840bf7993d3ceaeff9, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: -770985811200889226, guid: e8600ebabc5fb4940a05238772c7fd2d,
+      type: 2}
+    source: {fileID: 0}
+  - name: Level1Device
+    clip: {fileID: 8300000, guid: 94ee50de9ce3687448f7d5c86b99484a, type: 3}
+    volume: 0.5
+    pitch: 1.2
+    loop: 0
+    mixerGroup: {fileID: -770985811200889226, guid: e8600ebabc5fb4940a05238772c7fd2d,
+      type: 2}
+    source: {fileID: 0}
+  - name: Explosion_large
+    clip: {fileID: 8300000, guid: a59b043c2de78924eb29d0d0bf2ef2eb, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: -770985811200889226, guid: e8600ebabc5fb4940a05238772c7fd2d,
+      type: 2}
+    source: {fileID: 0}
