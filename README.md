@@ -29,48 +29,27 @@
 
 ---
 
-## Notable Systems & Key Scripts
-Below are the core gameplay modules and entry points within the project:
+## Core System Architecture
+The project includes a complete Unity implementation, while the **CoreCodeSamples/** folder highlights the most essential gameplay systems for review and documentation.  
+Each submodule represents a major component of the game’s technical framework, reflecting modular and scalable system design.
 
-### 🟩 Grid System
-- `GridSystem.cs` – Core grid management, coordinate conversion, and tile occupancy tracking.  
-- `LevelGrid.cs` – Central controller managing unit placement and cover detection.  
-- `GridSystemVisual.cs` – Real-time visualization for movement range, target tiles, and cover zones.
 
-### 🎯 Unit & Action System
-- `Unit.cs` – Handles health, stats, movement points, and status effects.  
-- `UnitActionSystem.cs` – Centralized action execution and player command control.  
-- `BaseAction.cs` – Abstract base for all actions with validation and execution flow.  
-- `MoveAction.cs` / `ShootAction.cs` – Implement movement and ranged combat behavior.
+- **CodeSamples/GridSystem/** – Implements the grid-based battlefield and coordinate management utilities.  
+  Handles grid creation, world-to-grid conversion, and cover detection logic used by both player and AI units.
 
-### 🤖 Enemy AI System
-- `EnemyAI.cs` – Controls decision-making and state transitions for AI-controlled units.  
-- `EnemyAIAction.cs` – Represents evaluated actions with tactical scoring metrics.
+- **CodeSamples/UnitSystem/** – Defines the data and logic of all controllable units.  
+  Manages unit stats, health, and state transitions, supporting modular action execution and event-driven updates.
 
-### 🧭 Pathfinding
-- `PathFinding.cs` – Implements A* pathfinding with movement cost heuristics and walkability checks.  
-- `PathNode.cs` – Stores node data (cost, neighbors, walkable state).  
-- `PathfindingUpdater.cs` – Updates the grid when destructible objects affect walkability.
+- **CodeSamples/ActionSystem/** – Contains the modular action architecture.  
+  Provides a base framework for actions (`MoveAction`, `ShootAction`, etc.), handling validation, execution, and action points.
+
+- **CodeSamples/Pathfinding/** – Implements the A* pathfinding algorithm for movement and target evaluation.  
+  Includes node data structures, cost-based traversal, and real-time walkability updates.
+
+- **CodeSamples/AI/** – Manages enemy behavior and tactical decision-making.  
+  Evaluates possible actions using heuristic scoring to simulate intelligent turn-based strategies.
 
 ---
 
-## Challenges & Solutions
-- **Issue:** Pathfinding grid failed to refresh after object destruction.  
-  **Solution:** Added `PathfindingUpdater` to dynamically revalidate affected nodes.
-
-- **Issue:** Enemy AI behavior appeared repetitive and inefficient.  
-  **Solution:** Implemented a weighted heuristic scoring system to rank potential actions each turn.
-
-- **Issue:** Overlapping player inputs occasionally triggered invalid action sequences.  
-  **Solution:** Centralized validation and action queuing within `UnitActionSystem`.
-
-- **Issue:** Cover detection accuracy was inconsistent on diagonals.  
-  **Solution:** Switched from raycast-only checks to directional sampling with layer filtering.
-
-- **Issue:** Visual feedback lagged behind unit updates.  
-  **Solution:** Refactored grid updates to use Unity events, ensuring synchronized refreshes.
-
----
-
-## Project Structure
-
+## Links
+- 🌐 [Portfolio Page](https://www.henrywang.online/copy-of-chippy-noppo-vr) – Full project breakdown and gameplay demo video 
